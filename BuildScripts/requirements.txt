@@ -1,0 +1,7 @@
+requests==2.14.2
+PyMySQL==0.7.11
+boto3==1.4.4
+credstash==1.13.4
+pytz==2017.2
+lxml==3.7.3
+python_dateutil==2.6.1
