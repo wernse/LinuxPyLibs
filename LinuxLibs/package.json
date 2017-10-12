@@ -12,6 +12,7 @@
     "dotenv": "^4.0.0"
   },
   "dependencies": {
-    "async": "^2.5.0"
+    "async": "^2.5.0",
+    "aws-sdk": "^2.132.0"
   }
 }
