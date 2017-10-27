@@ -19,7 +19,7 @@ let sendSSM = (apiInput, item, callback) => {
         OutputS3BucketName: 'serverlesslogs',
         OutputS3KeyPrefix: 'build/serverlesslogs',
         Parameters: {
-            'commands': [command],
+            'commands': [command]
         },
         TimeoutSeconds: 120
     };
