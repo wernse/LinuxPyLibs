@@ -17,12 +17,7 @@ provider:
     monthsToCount: 3
     minPeriodsToCheck: 2
 functions:
-  setupProvisions:
-    handler: src/setup/handler.setupProvisions
-    events:
-      - schedule:
-          rate: cron(4/5 * * * ? *)
-          description: 'Setup user provisions'
-          enabled: true
+   buildSSM:
+    handler: "functions/buildSSM.updateLambdas"
 plugins:
   - serverless-offline
